@@ -1,0 +1,237 @@
+2024-03-01 09:12:39,996 - INFO - 
+Config:
+'add_train': False
+'batch_first': True
+'batch_size': 100
+'cur_time': '2024_03_01_09_12_39'
+'debug_mode': False
+'do_figure_save': False
+'do_log_print_to_screen': True
+'do_log_save_to_file': True
+'do_test': False
+'do_train': True
+'do_train_visualized': False
+'dropout_rate': 0.2
+'epoch': 100
+'figure_save_path': './figure/'
+'hidden_size': [8, 16, 32]
+'input_columns': [0, 1, 2, 3]
+'input_size': 4
+'learning_rate': 0.001
+'log_save_path': './log/2024_03_01_09_12_39 '
+'model_name': '-model.pth'
+'model_save_path': './checkpoint/'
+'output_columns': [4]
+'output_size': 1
+'patience': 3
+'pre_model_name': '75-model.pth'
+'random_seed': 0
+'shuffle_train_data': True
+'test_data_path': 'D:/MatlabWork/seawater/2022/'
+'train_data_path': 'D:/MatlabWork/seawater/2017_2021/'
+'train_data_rate': 0.85
+'use_cuda': False
+'valid_data_rate': 0.2
+2024-03-01 13:16:23,413 - INFO - read data from D:/MatlabWork/seawater/2017_2021/
+2024-03-01 13:19:42,557 - INFO - [-11.69089432 -21.48814215 808.6271306    6.62856361]
+2024-03-01 13:19:42,597 - INFO - [1.13293310e+03 1.31229146e+04 3.65833077e+05 1.18371861e+01]
+2024-03-01 13:19:49,147 - INFO - [1030.57677758]
+2024-03-01 13:19:49,147 - INFO - [13.6385557]
+2024-03-02 12:23:22,072 - INFO - Epoch 0/100
+2024-03-02 12:55:00,539 - INFO - The train loss is 0.007258. The valid loss is 0.005006.
+2024-03-02 12:55:00,549 - INFO - Epoch 1/100
+2024-03-02 13:26:26,114 - INFO - The train loss is 0.003701. The valid loss is 0.003164.
+2024-03-02 13:26:26,114 - INFO - Epoch 2/100
+2024-03-02 13:57:42,578 - INFO - The train loss is 0.003347. The valid loss is 0.003113.
+2024-03-02 13:57:42,578 - INFO - Epoch 3/100
+2024-03-02 14:29:02,231 - INFO - The train loss is 0.003144. The valid loss is 0.003343.
+2024-03-02 14:29:02,231 - INFO - Epoch 4/100
+2024-03-02 15:00:19,456 - INFO - The train loss is 0.003018. The valid loss is 0.002796.
+2024-03-02 15:00:19,456 - INFO - Epoch 5/100
+2024-03-02 15:31:39,650 - INFO - The train loss is 0.002938. The valid loss is 0.002767.
+2024-03-02 15:31:39,650 - INFO - Epoch 6/100
+2024-03-02 16:03:02,409 - INFO - The train loss is 0.002884. The valid loss is 0.002756.
+2024-03-02 16:03:02,409 - INFO - Epoch 7/100
+2024-03-02 16:34:25,786 - INFO - The train loss is 0.002836. The valid loss is 0.002678.
+2024-03-02 16:34:25,796 - INFO - Epoch 8/100
+2024-03-02 17:05:44,047 - INFO - The train loss is 0.002790. The valid loss is 0.002623.
+2024-03-02 17:05:44,057 - INFO - Epoch 9/100
+2024-03-02 17:37:00,068 - INFO - The train loss is 0.002754. The valid loss is 0.002590.
+2024-03-02 17:37:00,068 - INFO - Epoch 10/100
+2024-03-02 18:08:15,747 - INFO - The train loss is 0.002727. The valid loss is 0.002575.
+2024-03-02 18:08:15,747 - INFO - Epoch 11/100
+2024-03-02 18:39:32,422 - INFO - The train loss is 0.002701. The valid loss is 0.002575.
+2024-03-02 18:39:32,422 - INFO - Epoch 12/100
+2024-03-02 19:11:25,882 - INFO - The train loss is 0.002678. The valid loss is 0.002532.
+2024-03-02 19:11:25,882 - INFO - Epoch 13/100
+2024-03-02 19:42:58,419 - INFO - The train loss is 0.002660. The valid loss is 0.002557.
+2024-03-02 19:42:58,419 - INFO - Epoch 14/100
+2024-03-02 20:14:32,164 - INFO - The train loss is 0.002644. The valid loss is 0.002514.
+2024-03-02 20:14:32,164 - INFO - Epoch 15/100
+2024-03-02 20:46:04,274 - INFO - The train loss is 0.002631. The valid loss is 0.002466.
+2024-03-02 20:46:04,274 - INFO - Epoch 16/100
+2024-03-02 21:17:33,400 - INFO - The train loss is 0.002619. The valid loss is 0.002499.
+2024-03-02 21:17:33,400 - INFO - Epoch 17/100
+2024-03-02 21:49:13,688 - INFO - The train loss is 0.002608. The valid loss is 0.002463.
+2024-03-02 21:49:13,698 - INFO - Epoch 18/100
+2024-03-02 22:21:25,866 - INFO - The train loss is 0.002598. The valid loss is 0.002455.
+2024-03-02 22:21:25,866 - INFO - Epoch 19/100
+2024-03-02 22:53:15,864 - INFO - The train loss is 0.002588. The valid loss is 0.002451.
+2024-03-02 22:53:15,864 - INFO - Epoch 20/100
+2024-03-02 23:24:52,409 - INFO - The train loss is 0.002580. The valid loss is 0.002462.
+2024-03-02 23:24:52,409 - INFO - Epoch 21/100
+2024-03-02 23:56:31,626 - INFO - The train loss is 0.002572. The valid loss is 0.003044.
+2024-03-02 23:56:31,626 - INFO - Epoch 22/100
+2024-03-03 00:28:13,554 - INFO - The train loss is 0.002564. The valid loss is 0.002639.
+2024-03-03 00:28:13,554 - INFO -  The training stops early in epoch 22
+2024-03-03 00:49:21,211 - INFO - Epoch 0/100
+2024-03-03 01:20:26,010 - INFO - The train loss is 0.002352. The valid loss is 0.002336.
+2024-03-03 01:20:26,010 - INFO - Epoch 1/100
+2024-03-03 01:51:36,072 - INFO - The train loss is 0.002344. The valid loss is 0.002330.
+2024-03-03 01:51:36,072 - INFO - Epoch 2/100
+2024-03-03 02:22:42,367 - INFO - The train loss is 0.002339. The valid loss is 0.002325.
+2024-03-03 02:22:42,367 - INFO - Epoch 3/100
+2024-03-03 02:53:48,749 - INFO - The train loss is 0.002335. The valid loss is 0.002321.
+2024-03-03 02:53:48,749 - INFO - Epoch 4/100
+2024-03-03 03:24:54,504 - INFO - The train loss is 0.002331. The valid loss is 0.002317.
+2024-03-03 03:24:54,504 - INFO - Epoch 5/100
+2024-03-03 03:55:54,596 - INFO - The train loss is 0.002329. The valid loss is 0.002314.
+2024-03-03 03:55:54,596 - INFO - Epoch 6/100
+2024-03-03 04:26:59,200 - INFO - The train loss is 0.002326. The valid loss is 0.002310.
+2024-03-03 04:26:59,210 - INFO - Epoch 7/100
+2024-03-03 04:58:02,242 - INFO - The train loss is 0.002323. The valid loss is 0.002306.
+2024-03-03 04:58:02,242 - INFO - Epoch 8/100
+2024-03-03 05:29:06,903 - INFO - The train loss is 0.002321. The valid loss is 0.002304.
+2024-03-03 05:29:06,903 - INFO - Epoch 9/100
+2024-03-03 06:00:12,152 - INFO - The train loss is 0.002319. The valid loss is 0.002302.
+2024-03-03 06:00:12,152 - INFO - Epoch 10/100
+2024-03-03 06:31:16,530 - INFO - The train loss is 0.002317. The valid loss is 0.002300.
+2024-03-03 06:31:16,530 - INFO - Epoch 11/100
+2024-03-03 07:02:26,235 - INFO - The train loss is 0.002315. The valid loss is 0.002298.
+2024-03-03 07:02:26,235 - INFO - Epoch 12/100
+2024-03-03 07:33:34,172 - INFO - The train loss is 0.002313. The valid loss is 0.002296.
+2024-03-03 07:33:34,172 - INFO - Epoch 13/100
+2024-03-03 08:04:46,234 - INFO - The train loss is 0.002312. The valid loss is 0.002294.
+2024-03-03 08:04:46,234 - INFO - Epoch 14/100
+2024-03-03 08:35:57,028 - INFO - The train loss is 0.002310. The valid loss is 0.002292.
+2024-03-03 08:35:57,028 - INFO - Epoch 15/100
+2024-03-03 09:07:01,869 - INFO - The train loss is 0.002309. The valid loss is 0.002291.
+2024-03-03 09:07:01,869 - INFO - Epoch 16/100
+2024-03-03 09:38:12,044 - INFO - The train loss is 0.002308. The valid loss is 0.002291.
+2024-03-03 09:38:12,044 - INFO - Epoch 17/100
+2024-03-03 10:09:18,210 - INFO - The train loss is 0.002306. The valid loss is 0.002289.
+2024-03-03 10:09:18,220 - INFO - Epoch 18/100
+2024-03-03 10:40:24,697 - INFO - The train loss is 0.002305. The valid loss is 0.002288.
+2024-03-03 10:40:24,707 - INFO - Epoch 19/100
+2024-03-03 11:11:39,485 - INFO - The train loss is 0.002303. The valid loss is 0.002285.
+2024-03-03 11:11:39,485 - INFO - Epoch 20/100
+2024-03-03 11:43:15,519 - INFO - The train loss is 0.002302. The valid loss is 0.002285.
+2024-03-03 11:43:15,519 - INFO - Epoch 21/100
+2024-03-03 12:14:11,298 - INFO - The train loss is 0.002301. The valid loss is 0.002283.
+2024-03-03 12:14:11,298 - INFO - Epoch 22/100
+2024-03-03 12:44:55,124 - INFO - The train loss is 0.002299. The valid loss is 0.002282.
+2024-03-03 12:44:55,124 - INFO - Epoch 23/100
+2024-03-03 13:15:43,917 - INFO - The train loss is 0.002298. The valid loss is 0.002281.
+2024-03-03 13:15:43,927 - INFO - Epoch 24/100
+2024-03-03 13:46:46,701 - INFO - The train loss is 0.002297. The valid loss is 0.002279.
+2024-03-03 13:46:46,701 - INFO - Epoch 25/100
+2024-03-03 14:18:05,278 - INFO - The train loss is 0.002295. The valid loss is 0.002279.
+2024-03-03 14:18:05,278 - INFO - Epoch 26/100
+2024-03-03 14:49:25,525 - INFO - The train loss is 0.002294. The valid loss is 0.002277.
+2024-03-03 14:49:25,525 - INFO - Epoch 27/100
+2024-03-03 15:20:54,333 - INFO - The train loss is 0.002293. The valid loss is 0.002276.
+2024-03-03 15:20:54,333 - INFO - Epoch 28/100
+2024-03-03 15:51:55,400 - INFO - The train loss is 0.002292. The valid loss is 0.002275.
+2024-03-03 15:51:55,400 - INFO - Epoch 29/100
+2024-03-03 16:22:32,915 - INFO - The train loss is 0.002291. The valid loss is 0.002273.
+2024-03-03 16:22:32,915 - INFO - Epoch 30/100
+2024-03-03 16:53:17,816 - INFO - The train loss is 0.002290. The valid loss is 0.002273.
+2024-03-03 16:53:17,816 - INFO - Epoch 31/100
+2024-03-03 17:24:03,009 - INFO - The train loss is 0.002289. The valid loss is 0.002272.
+2024-03-03 17:24:03,009 - INFO - Epoch 32/100
+2024-03-03 17:54:46,426 - INFO - The train loss is 0.002288. The valid loss is 0.002270.
+2024-03-03 17:54:46,426 - INFO - Epoch 33/100
+2024-03-03 18:25:31,051 - INFO - The train loss is 0.002287. The valid loss is 0.002270.
+2024-03-03 18:25:31,051 - INFO - Epoch 34/100
+2024-03-03 18:56:12,247 - INFO - The train loss is 0.002287. The valid loss is 0.002269.
+2024-03-03 18:56:12,247 - INFO - Epoch 35/100
+2024-03-03 19:27:00,547 - INFO - The train loss is 0.002286. The valid loss is 0.002268.
+2024-03-03 19:27:00,557 - INFO - Epoch 36/100
+2024-03-03 19:57:56,370 - INFO - The train loss is 0.002285. The valid loss is 0.002267.
+2024-03-03 19:57:56,370 - INFO - Epoch 37/100
+2024-03-03 20:28:52,109 - INFO - The train loss is 0.002285. The valid loss is 0.002267.
+2024-03-03 20:28:52,109 - INFO - Epoch 38/100
+2024-03-03 21:00:09,909 - INFO - The train loss is 0.002284. The valid loss is 0.002266.
+2024-03-03 21:00:09,909 - INFO - Epoch 39/100
+2024-03-03 21:31:26,326 - INFO - The train loss is 0.002283. The valid loss is 0.002265.
+2024-03-03 21:31:26,326 - INFO - Epoch 40/100
+2024-03-03 22:03:29,388 - INFO - The train loss is 0.002283. The valid loss is 0.002265.
+2024-03-03 22:03:29,388 - INFO - Epoch 41/100
+2024-03-03 22:35:12,538 - INFO - The train loss is 0.002282. The valid loss is 0.002265.
+2024-03-03 22:35:12,548 - INFO - Epoch 42/100
+2024-03-03 23:06:23,585 - INFO - The train loss is 0.002281. The valid loss is 0.002264.
+2024-03-03 23:06:23,585 - INFO - Epoch 43/100
+2024-03-03 23:37:16,137 - INFO - The train loss is 0.002281. The valid loss is 0.002263.
+2024-03-03 23:37:16,137 - INFO - Epoch 44/100
+2024-03-04 00:08:03,579 - INFO - The train loss is 0.002280. The valid loss is 0.002261.
+2024-03-04 00:08:03,579 - INFO - Epoch 45/100
+2024-03-04 00:38:48,854 - INFO - The train loss is 0.002279. The valid loss is 0.002261.
+2024-03-04 00:38:48,854 - INFO - Epoch 46/100
+2024-03-04 01:09:36,388 - INFO - The train loss is 0.002279. The valid loss is 0.002261.
+2024-03-04 01:09:36,388 - INFO - Epoch 47/100
+2024-03-04 01:40:27,863 - INFO - The train loss is 0.002278. The valid loss is 0.002260.
+2024-03-04 01:40:27,863 - INFO - Epoch 48/100
+2024-03-04 02:11:17,357 - INFO - The train loss is 0.002278. The valid loss is 0.002260.
+2024-03-04 02:11:17,357 - INFO - Epoch 49/100
+2024-03-04 02:42:08,236 - INFO - The train loss is 0.002277. The valid loss is 0.002258.
+2024-03-04 02:42:08,236 - INFO - Epoch 50/100
+2024-03-04 03:12:56,498 - INFO - The train loss is 0.002276. The valid loss is 0.002257.
+2024-03-04 03:12:56,498 - INFO - Epoch 51/100
+2024-03-04 03:43:55,317 - INFO - The train loss is 0.002276. The valid loss is 0.002258.
+2024-03-04 03:43:55,317 - INFO - Epoch 52/100
+2024-03-04 04:14:49,848 - INFO - The train loss is 0.002275. The valid loss is 0.002256.
+2024-03-04 04:14:49,848 - INFO - Epoch 53/100
+2024-03-04 04:45:39,563 - INFO - The train loss is 0.002275. The valid loss is 0.002256.
+2024-03-04 04:45:39,563 - INFO - Epoch 54/100
+2024-03-04 05:16:35,370 - INFO - The train loss is 0.002274. The valid loss is 0.002255.
+2024-03-04 05:16:35,370 - INFO - Epoch 55/100
+2024-03-04 05:47:25,583 - INFO - The train loss is 0.002274. The valid loss is 0.002254.
+2024-03-04 05:47:25,583 - INFO - Epoch 56/100
+2024-03-04 06:18:15,315 - INFO - The train loss is 0.002273. The valid loss is 0.002255.
+2024-03-04 06:18:15,315 - INFO - Epoch 57/100
+2024-03-04 06:49:00,877 - INFO - The train loss is 0.002272. The valid loss is 0.002254.
+2024-03-04 06:49:00,877 - INFO - Epoch 58/100
+2024-03-04 07:19:53,457 - INFO - The train loss is 0.002272. The valid loss is 0.002254.
+2024-03-04 07:19:53,457 - INFO - Epoch 59/100
+2024-03-04 07:50:45,761 - INFO - The train loss is 0.002271. The valid loss is 0.002253.
+2024-03-04 07:50:45,761 - INFO - Epoch 60/100
+2024-03-04 08:21:35,016 - INFO - The train loss is 0.002271. The valid loss is 0.002253.
+2024-03-04 08:21:35,016 - INFO - Epoch 61/100
+2024-03-04 08:52:09,644 - INFO - The train loss is 0.002270. The valid loss is 0.002252.
+2024-03-04 08:52:09,654 - INFO - Epoch 62/100
+2024-03-04 09:22:30,526 - INFO - The train loss is 0.002270. The valid loss is 0.002252.
+2024-03-04 09:22:30,526 - INFO - Epoch 63/100
+2024-03-04 09:52:45,613 - INFO - The train loss is 0.002269. The valid loss is 0.002252.
+2024-03-04 09:52:45,613 - INFO - Epoch 64/100
+2024-03-04 10:23:01,455 - INFO - The train loss is 0.002269. The valid loss is 0.002251.
+2024-03-04 10:23:01,455 - INFO - Epoch 65/100
+2024-03-04 10:53:16,692 - INFO - The train loss is 0.002268. The valid loss is 0.002252.
+2024-03-04 10:53:16,692 - INFO - Epoch 66/100
+2024-03-04 11:23:31,087 - INFO - The train loss is 0.002268. The valid loss is 0.002251.
+2024-03-04 11:23:31,087 - INFO - Epoch 67/100
+2024-03-04 11:53:51,393 - INFO - The train loss is 0.002267. The valid loss is 0.002250.
+2024-03-04 11:53:51,403 - INFO - Epoch 68/100
+2024-03-04 12:24:16,520 - INFO - The train loss is 0.002267. The valid loss is 0.002250.
+2024-03-04 12:24:16,520 - INFO - Epoch 69/100
+2024-03-04 12:54:33,000 - INFO - The train loss is 0.002267. The valid loss is 0.002251.
+2024-03-04 12:54:33,000 - INFO - Epoch 70/100
+2024-03-04 13:25:07,527 - INFO - The train loss is 0.002266. The valid loss is 0.002250.
+2024-03-04 13:25:07,527 - INFO - Epoch 71/100
+2024-03-04 13:55:50,858 - INFO - The train loss is 0.002266. The valid loss is 0.002249.
+2024-03-04 13:55:50,858 - INFO - Epoch 72/100
+2024-03-04 14:26:37,518 - INFO - The train loss is 0.002265. The valid loss is 0.002251.
+2024-03-04 14:26:37,518 - INFO - Epoch 73/100
+2024-03-04 14:57:16,401 - INFO - The train loss is 0.002265. The valid loss is 0.002251.
+2024-03-04 14:57:16,401 - INFO - Epoch 74/100
+2024-03-04 15:28:04,654 - INFO - The train loss is 0.002264. The valid loss is 0.002252.
+2024-03-04 15:28:04,654 - INFO -  The training stops early in epoch 74
